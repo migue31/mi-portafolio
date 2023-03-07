@@ -1,6 +1,6 @@
 h2{
-    color: aquamarine;
-    font-family: 'Cinzel', sans-serif;
+color: blue;
+font-family:'Cinzel';
 }
 /* cinzel-regular - latin */
 @font-face {
@@ -15,3 +15,4 @@ h2{
          url('../fonts/cinzel-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cinzel-v19-latin-regular.svg#Cinzel') format('svg'); /* Legacy iOS */
   }
+
