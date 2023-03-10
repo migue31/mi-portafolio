@@ -1,0 +1,45 @@
+
+h1 {
+    text-align: center;
+}
+.box-direction {
+  display: flex;
+  flex-direction: row;
+}
+.box-style{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+  font-size: tahoma, sans-serif;
+  font-weight: 900;
+}
+.box-darkyan {
+  background-color: darkcyan;
+}
+.box-orange{
+  background-color: orange;
+}
+.box-OliveDrab{
+  background-color: OliveDrab;
+}
+.box-green {
+  background-color: green;
+}
+.box-64-64-64 {
+  background-color: rgb(64,64,64, .5);
+}
+.box-171-238-7 {
+  background-color: rgb(171-238-7);
+}
+.box-14FAC3 {
+  background-color: #14FAC3;
+}
+.box-F5370F {
+  background-color: #F5370F;
+}
