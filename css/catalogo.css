@@ -4,8 +4,14 @@
     background-color: rgb(242,242,242); 
  }
  .main-box{
-     /* vh: view height */
      height: 100vh;
+     display: flex;
+     flex-direction: row;
+     margin-top: 200px;
+     align-items: flex-start;
+     justify-content: center;
+
+
  }
  .box-style{
      width: 350px;
@@ -13,15 +19,16 @@
      background-color: rgb(255,255,255);
      margin: 0 auto;
      margin-top: 100px;
+     flex-direction: row;
  }
  .product-box {
-   width: 250px;
+   width: 350px;
    height: 300px;
    margin: 0 auto;
    background-color: white;
  }
  img {
-   margin-top: 80px;
+   margin-top: 20px;
  }
  /* caja de color */
  .add-cart-1{
@@ -31,7 +38,6 @@
     width: 100%;
     height: 40px;
     background-color: rgb(39,200,164);
-   
  }
  .add-cart-1-span {
     background-color: transparent;
@@ -40,9 +46,42 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
  }
+ .add-cart-2{
+  margin-top: 20px;
+   text-align: center;
+   padding-top: 25px;
+   width: 100%;
+   height: 40px;
+   background-color: rgb(39,200,164);
+  
+}
+.add-cart-2-span {
+   background-color: transparent;
+   color: white;
+   font-weight: 900;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: .9em;
+}
+.add-cart-3{
+  margin-top: 20px;
+   text-align: center;
+   padding-top: 25px;
+   width: 100%;
+   height: 40px;
+   background-color: rgb(39,200,164);
+  
+}
+.add-cart-3-span {
+   background-color: transparent;
+   color: white;
+   font-weight: 900;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: .9em;
+}
  .product-text {
    text-align: center;
    background-color: white;
+   margin-top: 5px;
  }
  .product-text-span {
    background-color: white;
@@ -62,42 +101,21 @@
    font-size: 1.8em;
    font-weight: 900;
    display: block;
-   margin-top: 20px;
+   margin-top: 5px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
  }
- /* .add-cart-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(34, 139, 34);
- }
- .add-cart-2-span {
-    background-color: transparent;
-    color: white;
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
- }
- .add-cart-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(64, 224, 208);
- }
- .add-cart-3-span {
-    background-color: transparent;
-    color: white;
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em; */
- }
+ 
  p{
      font-size: 1.4;
      text-align: justify;
      background-color: white;
  }
+ .star-style {
+  font-size: 1.2em;
+  background-color: transparent;
+  color: gold
+  
+  
+  
+ }
+ 
