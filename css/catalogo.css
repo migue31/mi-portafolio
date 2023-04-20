@@ -1,121 +1,153 @@
 * {
-    margin: 0;
     padding: 0;
-    background-color: rgb(242,242,242); 
- }
- .main-box{
-     height: 100vh;
-     display: flex;
-     flex-direction: row;
-     margin-top: 200px;
-     align-items: flex-start;
-     justify-content: center;
+    margin: 0;
+    background-color: rgb(242,242,242);
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    /*vh: view height */
+    height: 100vh;
+}
+.box-style{
+    width: 350px;
+    margin: 0 40px;
+    background-color: rgb(255,255,255);
+    height: 460px;
 
-
- }
- .box-style{
-     width: 350px;
-     height: 460px;
-     background-color: rgb(255,255,255);
-     margin: 0 auto;
-     margin-top: 100px;
-     flex-direction: row;
- }
- .product-box {
-   width: 350px;
-   height: 300px;
-   margin: 0 auto;
-   background-color: white;
- }
- img {
-   margin-top: 20px;
- }
- /* caja de color */
- .add-cart-1{
-   margin-top: 20px;
-    text-align: center;
-    padding-top: 25px;
+}
+.product-box {
+   width: 230px;
+   height: 140px;
+   background-color: rgb(242,242,242);
+   margin-top: 30px;
+   margin-left: 50px;
+}
+.img {
+    margin-top: -40px;
+    background-color: white;
+}
+/* caja de color*/
+.add-cart-1{
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 40px;
+    height: 15%;
     background-color: rgb(39,200,164);
- }
- .add-cart-1-span {
+}
+.product-text {
+    text-align: center;
+    background-color: white;
+}
+.product-text-span {
+    margin-bottom: 0;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64,64,64, .9);
+}
+.text-description{
+    background-color: white;
+    color: rgb(64,64,64, .9);
+    font-size: .8em;
+}
+.price-text {
+    background-color: white;
+    color: rgb(39,200,164);
+    font-size: 1.8em;
+    font-weight: 900;
+    display: block;
+    margin: 10px;
+}
+.add-cart-1-span{
     background-color: transparent;
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
- }
- .add-cart-2{
-  margin-top: 20px;
-   text-align: center;
-   padding-top: 25px;
-   width: 100%;
-   height: 40px;
-   background-color: rgb(39,200,164);
-  
+    font-size: 1.0em;
+}   
+.add-cart-2{
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(221, 44, 21);
 }
-.add-cart-2-span {
-   background-color: transparent;
-   color: white;
-   font-weight: 900;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: .9em;
+.price-text2 {
+    background-color: white;
+    color: rgb(216, 48, 48);
+    font-size: 1.8em;
+    font-weight: 900;
+    display: block;
+    margin: 10px;
 }
+.add-cart-2-span{
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+}  
 .add-cart-3{
-  margin-top: 20px;
-   text-align: center;
-   padding-top: 25px;
-   width: 100%;
-   height: 40px;
-   background-color: rgb(39,200,164);
-  
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(228, 119, 17);
 }
-.add-cart-3-span {
-   background-color: transparent;
-   color: white;
-   font-weight: 900;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: .9em;
+.price-text3 {
+    background-color: white;
+    color: rgb(218, 144, 65);
+    font-size: 1.8em;
+    font-weight: 900;
+    display: block;
+    margin: 10px;
 }
- .product-text {
-   text-align: center;
-   background-color: white;
-   margin-top: 5px;
- }
- .product-text-span {
-   background-color: white;
-   font-size: 1.3em;
-   font-weight: 900;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: rgb(64,64,64,.9)
- }
- .text-descripcion {
-   background-color: white;
-   color: (64,64,64,.9);
-   font-size: .8em;
- }
- .price-text {
-   background-color: white;
-   color: rgb(39,200,164);
-   font-size: 1.8em;
-   font-weight: 900;
-   display: block;
-   margin-top: 5px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
- 
- p{
-     font-size: 1.4;
-     text-align: justify;
-     background-color: white;
- }
- .star-style {
-  font-size: 1.2em;
-  background-color: transparent;
-  color: gold
-  
-  
-  
- }
- 
+.add-cart-3-span{
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+} 
+p {
+    font-size: 1.4em;
+    text-align: justify;
+    background-color: white;
+}
+.star-style1 {
+    color: rgb(39,200,164);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style2 {
+    color: rgb(216, 48, 48);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style3 {
+    color: rgb(218, 144, 65);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style4 {
+    color: rgb(99, 14, 218);
+    font-size: 1.4em;
+}
