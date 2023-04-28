@@ -63,5 +63,16 @@ color: white;
     border: 1px solid rgb(228, 227, 227);
     background-color: rgb(172, 175, 179);
  }
- 
+ .th-HBO4 {
+    background-color:rgb(51, 144, 255);
+    color: white;
+    border-bottom-left-radius: 20px;
+ }
+ .th-33{
+     border: 1px solid rgb(228, 227, 227);
+    background-color: rgb(172, 175, 179);
+    border-bottom-right-radius: 20px;
+    border-bottom: 0px;
+    border-right: 0px;
+ }
 
