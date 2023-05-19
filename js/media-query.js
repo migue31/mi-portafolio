@@ -1,8 +1,7 @@
- let menuBar = document.getElementById("menuBar");
+let menuBar = document.getElementById("menuBar");
 let mainMenu = document.getElementById("mainMenu");
 
 menuBar.addEventListener("click", function() {
-/*       alert("Holiiii, si funciona!! :)"); */
     if (mainMenu.classList.contains("main-menu")) {
         mainMenu.classList.add("main-menu-block");
         mainMenu.classList.remove("main-menu");
@@ -17,4 +16,4 @@ menuBar.addEventListener("click", function() {
     mainNAv.classList.add("main-nav-2") */;
     /* mainMenu.classList.remove("main-menu")
     mainMenu.classList.add("main-menu-block") */
-    
+    /*       alert("Holiiii, si funciona!! :)"); */
