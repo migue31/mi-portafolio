@@ -1,3 +1,4 @@
+
 .box-direction {
     display: flex;
     flex-direction: row;
@@ -15,6 +16,6 @@
     font-size: tahoma, sans-serif;
     font-weight: 900;
   }
-  .box-darkyan {
+  .box-palevioletred{
     background-color: darkcyan;
   }
