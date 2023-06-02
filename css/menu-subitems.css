@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 nav{
-  background-color: rgb(14, 111, 229);
+  background-color: rgb(34, 153, 84);
   height: 70PX;
  }
  
@@ -13,7 +13,7 @@ nav ul{
   list-style: none;
   position: absolute;
   width: 100%;
-  background-color: rgb(14, 111, 229);
+  background-color: rgb(34, 153, 84);  
  }
  nav > ul {
 margin-left: 40px;
@@ -33,26 +33,26 @@ ul li{
 
 li:hover{
   cursor: pointer;
-  background-color:rgb(254, 107, 28);
+  background-color:rgba(243, 156, 18);
 }
 
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-
+  
 /*menu de segundo nivel*/
 nav li li{
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1s;
+  transition: max-height .3s;
 }
 
 nav li:hover > ul > li{
 overflow: visible;
 max-height: 500px;
 border: 1px solid rgb(44, 244, 244, .2);
-transition: max-height 1s;
+transition: max-height 1.5s;
 }
 
 /*menu de tercer nivel*/
@@ -60,3 +60,4 @@ nav ul ul ul {
   left: 100%;
   top:0;
 }
+
