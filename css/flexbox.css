@@ -1,0 +1,124 @@
+* {
+  font-family: sans-serif;
+}
+.h1 {
+  text-align: center;
+}
+.box-cont {
+ background-color: goldenrod;
+ gap: 20px;
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+}
+.box-2 {
+  display: flex;
+  flex-direction: row;
+}
+.box-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-4 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.box-5 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box-6 {
+  display: flex;
+  justify-content: space-between;
+}
+.box-7 {
+  display: flex;
+  justify-content: space-around;
+}
+.box-8 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-9 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+}
+.box-height {
+  height: 500px;
+  gap: 70px;
+}
+.box-10 {
+  display: flex;
+  align-items: flex-end;
+  justify-content:center;
+}
+.box-gen {
+  background-color: darkcyan;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  margin-right: 20px;
+}
+.box-main-wrap {
+  gap: 20px;
+  height: 280px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 70%;
+  margin: 0 auto;
+}
+.box-l {
+  background-color: rgb(109, 139, 0);
+  width: 100px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  margin-right: 20px;
+}
+.box-ll {
+  background-color: darkcyan;
+  width: 100px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  margin-right: 20px;
+}
+.box-lll {
+  background-color: rgb(242, 6, 6);
+  width: 100px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  margin-right: 20px;
+}
+.box-llll {
+  background-color: rgb(242, 104, 6);
+  width: 100px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  margin-right: 20px;
+}
+.box-height1 {
+height: 500px;
+gap: 2px;
+}
