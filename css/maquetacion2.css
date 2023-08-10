@@ -25,9 +25,9 @@ grid-template:"logo menu" 100px /
 }
 .img-principal{
     grid-area: img-principal;
-    width: 100%;
+    width: auto;
     height: 600px;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
 }
 .style-box{
     color: white;
@@ -72,7 +72,7 @@ background-color: rgb(64,64,64); */
     grid-area: article-6;
 }
 .style-img-article{
-    height: 350px;
+    height: 400px;
 }
 .style-texto-article{
     line-height: 1.5em;
