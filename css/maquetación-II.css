@@ -108,7 +108,7 @@ header {
 
 .main-menu-pc { 
     list-style: none;
-    text-align: right; 
+    text-align: left; 
 }
 .item-style {
     display: inline-block;
