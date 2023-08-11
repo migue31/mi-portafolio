@@ -1,0 +1,72 @@
+body {
+    font-family: poppins sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+ section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #f3840d;
+    border-radius: 5px;
+}
+
+header h1, section h2, .project h3, footer p {
+    margin: 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #ff0000;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+/* .portafolio{
+    text-align: center;
+} */
+header {
+    height: 100%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    border-radius: 5px;
+    border: 5px solid black;
+}
+.about-me{
+    height: 100%;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    border: 5px solid black;
+}
