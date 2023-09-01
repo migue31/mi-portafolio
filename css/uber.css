@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: uber, sans-serif;
+}
+nav{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template: "menu-left menu-right" /
+                    1fr       1fr;
+}
+.img-principal{
+    grid-area: img-principal;
+    width: auto;
+    height: 600px;
+    /* background-color: darkcyan; */
+}
+.style-box{
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 800;
+}
+.menu-left {
+    grid-area: menu-left;
+}
+.menu-right {
+    grid-area: menu-right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+nav .menu-right{
+    display: flex;
+}
+nav .menu-left{
+    display: flex;
+
+}
+.style{
+    display: flex;
+}
+
+/* Font Uber */
+/* abeezee-regular - latin */
+@font-face {
+    font-display: uber; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Uber';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/UberMoveTextMedium.otf') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
