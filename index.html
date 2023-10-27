@@ -1,44 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Mi Portafolio</title>
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="">
-      <link rel="stylesheet" href="icons/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/miportafolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-      <h1> Bienvenido a mi portafolio</h1>
-      <h2>Miguel Ángel Ortiz-multimedia 2500096</h2>
-      <h3>contactame!. telefono 313 349 1555</h3>
+<header>
+  <div class="user">
+    <img src="imagenes/perfil.jpg" alt="">
+    <h3 class="name">Miguel Ángel Ortiz</h3>
+    <p class="post">Productor Multimedia</p>
+  </div>
+  <nav class="navbar">
+     <ul>
+      <!-- <li><a href="#home">home</a></li> -->
+      <li><a href="#about">Quién soy</a></li>
+      <li><a href="#education">Estudios</a></li>
+      <li><a href="#projet">Proyectos</a></li>
+      <li><a href="#contact">Contactos</a></li>
+    </ul>
+  </nav>
+</header>
 
-      <ul> Menu
-            <li><a href="index.html"> Inicio</li>
-            <li><a href="fuente.html"> Fuentes</li>
-            <li><a href="listas.html"> listas</li>
-                  <ul>
-                        <li><a href="fuente1.html" >Fuente Game of thrones</li>
-                        <li><a href="fuentes2.html">Fuente NETFLIX</li>    
-                        <li><a href="fuentes3.html">Fuente Disney</li>
-                        <li><a href="colores.html">Colores</li>
-                        <li><a href="catalogo.html">Catalogo</li>
-                        <li><a href="tablas.html">Tabla</li>
-                        <li><a href="menu-horizontal.html">Menu</li>
-                        <li><a href="media-query.html">Media Query</li>
-                        <li><a href="menu-subitems.html">Menu subitems</li>
-                        <li><a href="flexbox.html">flexbox</li>
-                        <li><a href="calendario.html">Calendario</li>
-                        <li><a href="maquetacion.html">Maquetacion</li>
-                        <li><a href="maquetación-II.html">Maquetacion Toyota</li>
-                        <li><a href="miportafolio1.html">Miportafolio</li>
-                        <li><a href="starbucks.html">starbucks</li>
-                         <li><a href="snekers1.html">Snakers</li>
-                  </ul>
-      </ul>
-      <i class="fa-solid fa-house"></i>
+<div id="menu" class="fas fa-bars"></div>
 
-</body>
-</html>
+<!-- <section class="home" id="#home">
+  <h3>HI THERE!</h3>
+  <h1>Hola soy <span>Miguel Ortiz</span></h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in eaque atque quas natus. Recusandae unde obcaecati expedita fuga repellat dolorum iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, unde?
+  </p>
+  <a href="#about"><button class="btn">yo soy <i class="fas fa-user"></i></button></a>
+
+</section> -->
+
+<section class="about" id="about">
+  <h1 class="heading"> <span>Quién</span> soy </h1>
+  <div class="row">
+
+    <div class="info">
+      <h3> <span> Nombre : </span> Miguel Ángel </h3>
+      <h3> <span> Edad : </span> 19 </h3>
+      <h3> <span> Profesión : </span> Productor Multimedia</h3>
+      <h3> <span> Habilidades : </span>  sofware de Adobe</h3>
+      <a href="#"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+    </div>
+    <div class="counter">
+
+      <div class="box">
+        <span>2+</span>
+        <h3>Años de Experiencia</h3>
+      </div>
+      <div class="box">
+        <span>20+</span>
+        <h3>Proyectos terminados</h3>
+      </div>
+      <div class="box">
+        <span>50+</span>
+        <h3>Clientes felices</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="education" id="education">
+
+  <h1 class="heading"> Mis <span>Estudios</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <i class="fas fa-graduation-cap"></i>
+      <span>2023</span>
+      <h3>Productor multimedia</h3>
+      <p> Soy egresado SENA como productor multimedia con conocimientos en diseño,edición,fotograafia,maquetacion y programación HTML-CSS-JS</p>
+
+    </div>
+  </div>
+</section>
+<section class="projet" id="projet">
+  <h1 class="heading"> Mis <span>Proyectos</span></h1>
+  <div class="box-container">
+      
+      <a href="fuente1.html" >
+            <div class="box">
+                  <img src="imagenes/game.PNG" alt="">
+                  <label>Game of thrones</label>
+            </div>
+      </a>
+
+      <a href="fuentes2.html">
+            <div class="box">
+                  <img src="imagenes/Netflix.PNG" alt="">
+                  <label>NETFLIX</label>
+            </div>
+      </a>
+
+      <a href="fuentes3.html">
+            <div class="box">
+                  <img src="imagenes/Disney.PNG" alt="">
+                  <label>Disney</label>
+            </div>
+      </a>
+
+      <a href="colores.html">
+            <div class="box">
+                  <img src="imagenes/colores.PNG" alt="">
+                  <label>Colores</label>
+            </div>
+      </a>
+
+      <a href="catalogo.html">
+            <div class="box">
+                  <img src="imagenes/catalogo.PNG" alt="">
+                  <label>Catalogo</label>
+            </div>
+      </a>
+
+      <a href="tablas.html">
+            <div class="box">
+                  <img src="imagenes/tablas.PNG" alt="">
+                  <label>Tablas</label>
+            </div>
+      </a>
+
+    <a href="media-query.html">
+      <div class="box">
+            <img src="imagenes/Mediaquery.PNG" alt="">
+            <label>Media-query</label>
+      </div>
+</a>
+
+<a href="menu-horizontal.html">
+      <div class="box">
+            <img src="imagenes/menuhorizontal.PNG" alt="">
+            <label>Menu horizontal</label>
+      </div>
+</a>
+
+    <a href="menu-subitems-2.html">
+      <div class="box">
+            <img src="imagenes/menu.PNG" alt="">
+            <label>Menu</label>
+      </div>
+</a>
+
+    <a href="calendario.html">
+      <div class="box">
+            <img src="imagenes/calendario.PNG" alt="">
+            <label>Calendario</label>
+      </div>
+</a>
+
+    <a href="maquetación-II.html">
+      <div class="box">
+            <img src="imagenes/maquetacionII.PNG" alt="">
+            <label>Maquetación</label>
+      </div>
+</a>
+    <a href="starbucks.html">
+      <div class="box">
+            <img src="imagenes/starbucks.PNG" alt="">
+            <label>Starbucks</label>
+      </div>
+</a>
+      <a href="uber.html">
+            <div class="box">
+                  <img src="imagenes/uber.PNG" alt="">
+                  <label>uber</label>
+            </div>
+</a>
+      <a href="snekers1.html">
+            <div class="box">
+                  <img src="imagenes/sneaker.PNG" alt="">
+                  <label>Snakers</label>
+            </div>
+      </a>
+  </div>
+
+</section>
+<section class="contact" id="contactos">
+
+  <h1 class="heading"> Mis <span>Contactos</span></h1>
+  <div class="row">
+    <div class="content">
+
+      <h3 class="title">Contactos info</h3>
+      <div class="info">
+        <h3> <i class="fas fa-envelo"></i> migue.ortiz1031@gmail.com </h3>
+        <h3> <i class="fas fa-phone"></i> +57 313 349 1555 </h3>
+        <h3> <i class="fas fa-phone"></i> +57 320 842 3345 </h3>
+        <h3> <i class="fas fa-phone"></i> +57 3133491555 </h3>
+      </div>
+    </div>
+     <form action="">
+      <input type="text" placeholder="name" class="box">
+      <input type="email" placeholder="email" class="box">
+      <input type="text" placeholder="projet" class="box">
+      <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+      <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+     </form>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="miportafolio.js"></script>
+  </body>
 </html>
