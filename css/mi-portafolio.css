@@ -70,3 +70,9 @@ header {
     border-radius: 5px;
     border: 5px solid black;
 }
+.title {
+    color: rgb(255, 0, 0);
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
